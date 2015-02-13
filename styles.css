@@ -1,3 +1,18 @@
+Skip to content
+ This repository
+Explore
+Gist
+Blog
+Help
+Jasper Davis jaypith
+ 
+1  Unwatch 
+  Star 0
+ Fork 0jaypith/180teaser
+ branch: master  180teaser/styles.css
+Jasper 12 minutes ago SM icons fixed & logo fixed
+0 contributors
+289 lines (221 sloc)  4.359 kb RawBlameHistory   
 
 /*****************************************************************************
 Base Styles
@@ -52,10 +67,7 @@ h2{
 	font-weight: 300;
 }
 
-header i{
-	font-size:24px;
-	color:#FFF;
-}
+
 
 .sm-icons{
 	color: #CC9900;
@@ -73,10 +85,6 @@ header i{
 	transition: all 0.5s ease;
 }
 
-.sm-icons:hover{
-	color: #FFF;
-	background: #CC9900;
-}
 
 
 a{
@@ -98,9 +106,10 @@ Layout Styles
 header{
 	width:100%;
 	height:24px;
-	position:absolute;
+	position:relative;
 	top:20px;
-	background:#FFF;
+	max-width:1024px;
+	margin:auto;
 }
 
 /*****************************************************************************
@@ -116,6 +125,8 @@ header{
 	width:100%;
 	min-height:400px;
 	height:auto;
+	margin-top:-20px;
+	overflow:hidden;
 }
 
 #title-area .main-logo{
@@ -133,12 +144,23 @@ header{
 	max-width:230px;
 	min-width:200px;
 	width:20%;
-	margin:0 auto;
+	margin:5px auto;
 	position:relative;
 	display:block;
 
+
 }
 
+#title-area .eat-logo-spacer{
+	max-width:880px;
+	margin:auto;
+
+}
+
+@media screen and (min-width: 800px) {
+	#title-area .eat-logo{
+		margin:0 0 10px; }
+}
 
 
 
@@ -212,7 +234,7 @@ header{
 
 #map-area .map-container{
 	background-color:#E5E5E5;
-	max-width:1020px;
+	max-width:1024px;
 	min-width:350px;
 	margin:40px auto 0;
 	padding:5px 0px;
@@ -231,6 +253,11 @@ header{
 .info-box h2{
 	line-height:1.2;
 	margin:12px 0px 5px;
+}
+
+.info-box .sm-icons{
+	float:none;
+	margin:0px;
 }
 
 .map-box iframe {
@@ -256,7 +283,7 @@ header{
 
 
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
 	#map-area .info-box{
 	float:left;
 	margin-left:40px;
@@ -274,3 +301,5 @@ header{
 
 
 
+Status API Training Shop Blog About
+© 2015 GitHub, Inc. Terms Privacy Security Contact
