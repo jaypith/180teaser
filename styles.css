@@ -51,6 +51,10 @@ h2{
 	font-weight: 300;
 }
 
+a{
+	text-decoration: none;
+	color: #CC9900;
+}
 
 
 .sm-icons{
@@ -226,6 +230,11 @@ header .sm-icons{
 	color:#FFF;
 	width:60px;
 	text-align:center;
+	cursor:pointer;
+}
+
+#form-area .reserve-btn:hover{
+	background-color:#CC9900;
 }
 
 /*****************************************************************************
