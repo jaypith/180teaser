@@ -89,6 +89,12 @@ header{
 	width:180px;
 }
 
+header .sm-icons{
+	font-size: 2em;
+	margin: 2px 6px;
+}
+
+
 @media screen and (min-width: 800px) {
 	header{
 		width:100%;
@@ -158,10 +164,7 @@ header{
 	#title-area .eat-logo{
 		margin:0 0 10px; }
 
-	header .sm-icons{
-	font-size: 2em;
-	margin: 2px 6px;
-	}
+
 
 }
 
