@@ -1,0 +1,276 @@
+
+/*****************************************************************************
+Base Styles
+******************************************************************************/
+
+html {
+	font-size: 12px;
+	line-height: 1.8;
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: 'Muli', Arial, Helvatica, sans-serif;
+	background-color: #232323;
+
+	text-align:center; }
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0; }
+
+body {
+	min-width: 250px;
+	color:#232323;
+	height:auto; }
+
+img {
+	max-width: 100%; }
+
+html, body {
+	height: 100%; 
+	width:100%;
+}
+
+
+
+p{
+	font-weight:300;
+
+}
+
+h1{
+	font-size: 1.16em;
+	line-height: 1,8;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+
+h2{
+	line-height: 1.33em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+header i{
+	font-size:24px;
+	color:#FFF;
+}
+
+.sm-icons{
+	color: #CC9900;
+	font-size: 2em;
+	line-height: 1;
+	float: right;
+	margin: 2px 6px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.sm-icons:hover{
+	color: #FFF;
+	background: #CC9900;
+}
+
+
+a{
+	text-decoration: none;
+	font-weight:bold;
+	color:#CC9900;
+}
+
+a:hover{
+	background-color:#CC9900;
+	color:#FFF;
+}
+
+/*****************************************************************************
+Layout Styles
+******************************************************************************/
+
+
+header{
+	width:100%;
+	height:24px;
+	position:absolute;
+	top:20px;
+	background:#FFF;
+}
+
+/*****************************************************************************
+1st Area - Title Area 
+******************************************************************************/
+
+
+#title-area {
+	background-image: url('assets/teaster-bg1.jpg');
+	background-position: 65% 0%;
+	background-size: cover;
+	background-repeat:no-repeat;
+	width:100%;
+	min-height:400px;
+	height:auto;
+}
+
+#title-area .main-logo{
+	max-width:780px;
+	min-width:320px;
+	width:70%;
+	margin:0 auto;
+	position:relative;
+	margin-top:100px;
+	display:block;
+
+}
+
+#title-area .eat-logo{
+	max-width:230px;
+	min-width:200px;
+	width:20%;
+	margin:0 auto;
+	position:relative;
+	display:block;
+
+}
+
+
+
+
+/*****************************************************************************
+2nd Area - Form Area 
+******************************************************************************/
+
+
+#form-area{
+	width:100%;
+	min-height:500px;
+	background:#FFFFFF;
+	padding:30px 0;
+
+}
+
+#form-area p{
+	max-width:850px;
+	padding:0 10px;
+	margin:0 auto 20px;
+}
+#form-area h1{
+	max-width:720px;
+ 	padding:0 20px;
+ 	margin:0 auto;	
+}
+
+#form-area img{
+	margin:10px 5px;
+}
+
+
+#form-area .form-section{
+	width:300px;
+	margin:10px auto;
+	text-align:left;
+}
+
+.form-section input{
+	 width:100%;
+	 border:none;
+	 padding:2px 10px;
+	 color:#FFF;
+	 background-color:#000;
+	 min-height:24px;
+
+}
+
+#form-area .reserve-btn{
+	margin:auto;
+	padding:2px 5px;
+	background-color:#000;
+	color:#FFF;
+	width:60px;
+	text-align:center;
+}
+
+/*****************************************************************************
+3rd Area - Map Area
+******************************************************************************/
+
+
+#map-area{
+	background-image: url('assets/teaster-bg2.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	min-height:630px;
+	padding:20px 0px;
+}
+
+#map-area .map-container{
+	background-color:#E5E5E5;
+	max-width:1020px;
+	min-width:350px;
+	margin:40px auto 0;
+	padding:5px 0px;
+}
+
+.info-box .eat-logo{
+	width:167px;
+	margin:0 auto;
+}
+
+.info-box p{
+	line-height:1.2;
+	margin:5px 0px;
+}
+
+.info-box h2{
+	line-height:1.2;
+	margin:12px 0px 5px;
+}
+
+.map-box iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#map-area .map-box{
+	position: relative;
+	width:100%;
+	min-width:350px;
+	max-width:685px;
+	overflow: hidden;
+	margin:0 auto;
+	padding-top: 30px;
+	padding-bottom:62%;
+	height: 0;
+
+}
+
+
+
+@media screen and (min-width: 1020px) {
+	#map-area .info-box{
+	float:left;
+	margin-left:40px;
+	padding:0 20px;
+	}
+
+	#map-area .map-box{
+		margin:0px auto;
+		float:right;
+		padding-top:220px;
+		padding-bottom:220px;
+	}
+}
+
+
+
+
